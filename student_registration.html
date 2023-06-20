@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Student Login - EVSU Apps</title>
+	<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+	<div class="container">
+		<div class="pic">
+			<div class="head">
+				<img src="evsulogo-removebg-preview.png" alt="" srcset="">
+				<div class="text">
+					<h1>EASTER VISAYAS</h1>
+					<h4>STATE UNIVERSITY</h4>
+				</div>
+			</div>
+			<div class="slant"></div>
+		</div>
+		<div class="formContainer">
+			<h1>STUDENT PORTAL</h1>
+			<form action="student_login.php" method="post">
+				<h2 class="sc">Student Confirmation</h2>
+				<label for="studId">Enter your Student ID</label><br><br>
+				<input type="text" name="studId" id="studId">
+				<label for="">Enter your Date of Birth</label><br><br>
+				<input type="password" name="date" id="date" placeholder="yyyy-mm-dd">
+				<input type="button" value="Confirm" onclick="location.href='dashboard.html'">
+				<div class="notes">
+					<p>By using this service, you understood and agree to the <a href="#">EVSU Online Services Terms of Use and Privacy Statement</a></p>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
